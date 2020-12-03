@@ -1,16 +1,12 @@
 """Console script for ipify_me."""
 import sys
 import click
-import requests
-import json
+from ipify_me import ipify_me
 
 
 @click.command()
 def main(args=None):
-    """Console script for ipify_me."""
-    response = requests.get('https://api.ipify.org?format=json')
-    ip = json.loads(response.content)['ip']
-    print("Your external IP is " + ip)
+    ipify_me.ipify_me()
     return 0
 
 
