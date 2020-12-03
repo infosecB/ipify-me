@@ -1,5 +1,5 @@
 ========
-Ipify Me
+ipify me
 ========
 
 
@@ -16,17 +16,12 @@ Ipify Me
 
 
 
-Retreive your public IP address using Ipify's free API.
+Retreive your public IP address using ipify's free API.
 
 
 * Free software: Apache Software License 2.0
 * Documentation: https://ipify-me.readthedocs.io.
 
-
-Features
---------
-
-* TODO
 
 Credits
 -------
