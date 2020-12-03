@@ -24,12 +24,9 @@ Retreive your public IP address using ipify's free API.
 
 Installation
 ------------
-1. Clone the repository from Github
-git clone https://github.com/infosecB/ipify-me.git && cd ipify_me
-2. Install the package using setup.py
-python3 setup.py install
-3. Run ipify_me to see your public IP address
-ipify_me
+.. [#] Clone the repository from Github: git clone https://github.com/infosecB/ipify-me.git && cd ipify_me
+.. [#] Install the package using setup.py: python3 setup.py install
+.. [#] Run ipify_me to see your public IP address: ipify_me
 
 Credits
 -------
