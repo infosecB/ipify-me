@@ -22,6 +22,14 @@ Retreive your public IP address using ipify's free API.
 * Free software: Apache Software License 2.0
 * Documentation: https://ipify-me.readthedocs.io.
 
+Installation
+------------
+1. Clone the repository from Github
+git clone https://github.com/infosecB/ipify-me.git && cd ipify_me
+2. Install the package using setup.py
+python3 setup.py install
+3. Run ipify_me to see your public IP address
+ipify_me
 
 Credits
 -------
