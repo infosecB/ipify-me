@@ -9,4 +9,3 @@ def ipify_me():
     response = requests.get('https://api.ipify.org?format=json')
     ip = json.loads(response.content)['ip']
     print("Your external IP is " + ip)
-
