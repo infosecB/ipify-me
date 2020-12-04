@@ -2,7 +2,7 @@ import requests
 import json
 
 
-def ipify_me():
+def get_ipify_ip():
     """
     docstring
     """
