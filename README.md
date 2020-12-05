@@ -2,7 +2,7 @@
 
 [![PyPi](https://img.shields.io/pypi/v/ipify_me.svg)](https://pypi.python.org/pypi/ipify_me)
 [![Travis CI](https://img.shields.io/travis/infosecb/ipify_me.svg)](https://travis-ci.com/infosecb/ipify_me)
-[![Read the Docs](https://readthedocs.org/projects/ipify-me/badge/?version=latest)](https://ipify-me.readthedocs.io/en/latest/?badge=latest)
+[![Read the Docs](https://readthedocs.org/projects/ipify-me/badge/?version=latest)](https://ipify-me.readthedocs.io/en/latest/)
 
 Retreive your public IP address using ipify's free API.
 
