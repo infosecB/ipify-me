@@ -11,18 +11,30 @@ Retreive your public IP address using ipify's free API.
 
 ## Installation
 
-1. Clone the repository from Github and open directory
-```
-git clone https://github.com/infosecB/ipify-me.git && cd ipify-me
-```
-2. Install the package using setup.py
-```
-sudo python3 setup.py install
-```
-3. Run ipify_me to see your public IP address
-```
-ipify_me
-```
+### Stable release
+To install Ipify Me, run this command in your terminal:
+
+    $ pip install ipify_me
+
+This is the preferred method to install Ipify Me, as it will always install the most recent stable release.
+
+If you don’t have pip installed, this Python installation guide can guide you through the process.
+
+### From sources
+
+The sources for Ipify Me can be downloaded from the Github repo.
+
+You can either clone the public repository:
+
+    $ git clone git://github.com/infosecb/ipify_me
+
+Or download the tarball:
+
+    $ curl -OJL https://github.com/infosecb/ipify_me/tarball/master
+
+Once you have a copy of the source, you can install it with:
+
+    $ python setup.py install
 
 ## Credits
 
