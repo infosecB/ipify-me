@@ -1,11 +1,12 @@
 """Console script for ipify_me."""
 import sys
 import click
-from ipify_me import core 
+from .ipify_me import print_ipify_ip
+
 
 @click.command()
 def main(args=None):
-    core.get_ipify_ip()
+    print_ipify_ip()
     return 0
 
 
