@@ -3,3 +3,5 @@
 __author__ = """Brendan Chamberlain"""
 __email__ = 'brendan@infosecb.com'
 __version__ = '1.0.2'
+
+from .ipify_me import *
