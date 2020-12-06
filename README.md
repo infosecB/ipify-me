@@ -4,7 +4,7 @@
 [![Travis CI](https://img.shields.io/travis/infosecb/ipify_me.svg)](https://travis-ci.com/infosecb/ipify_me)
 [![Read the Docs](https://readthedocs.org/projects/ipify-me/badge/?version=latest)](https://ipify-me.readthedocs.io/en/latest/)
 
-Retreive your public IP address using ipify's free API.
+Retrieve your public IP address using ipify's free API.
 
 * Free software: Apache Software License 2.0
 * Documentation: https://ipify-me.readthedocs.io.
