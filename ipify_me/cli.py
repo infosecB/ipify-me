@@ -3,6 +3,7 @@ import sys
 import click
 import ipify_me
 
+
 @click.command()
 def main(args=None):
     ipify_me.print_ipify_ip()
