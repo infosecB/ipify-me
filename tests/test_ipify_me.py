@@ -3,11 +3,16 @@
 """Tests for `ipify_me` package."""
 
 
+from ipify_me import core
+from ipify_me import cli
 import unittest
+import sys
+import re
 from click.testing import CliRunner
 
 # from ipify_me import ipify_me
-from ipify_me import cli
+
+sys.path.append('../')
 
 
 class TestIpify_me(unittest.TestCase):
@@ -20,7 +25,12 @@ class TestIpify_me(unittest.TestCase):
         """Tear down test fixtures, if any."""
 
     def test_000_something(self):
-        """Test something."""
+        """Test the Get IP function."""
+        result = core.get_ipify_ip()
+        assert bool(re.match(
+            '(([2]([0-4][0-9]|[5][0-5])|[0-1]?[0-9]?[0-9])[.]){3}' +
+            '(([2]([0-4][0-9]|[5][0-5])|[0-1]?[0-9]?[0-9]))',
+            result)) is True
 
     def test_command_line_interface(self):
         """Test the CLI."""
