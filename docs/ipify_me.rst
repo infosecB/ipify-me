@@ -12,10 +12,10 @@ ipify\_me.cli module
     :undoc-members:
     :show-inheritance:
 
-ipify\_me.ipify\_me module
---------------------------
+ipify\_me.core module
+---------------------
 
-.. automodule:: ipify_me.ipify_me
+.. automodule:: ipify_me.core
     :members:
     :undoc-members:
     :show-inheritance:
